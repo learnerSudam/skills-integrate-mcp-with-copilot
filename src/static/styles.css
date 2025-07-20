@@ -50,6 +50,28 @@ section {
   max-width: 500px;
 }
 
+/* Toolbar styles for filters, sort, and search */
+#activities-toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  align-items: center;
+}
+#activities-toolbar input[type="text"] {
+  flex: 2;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+#activities-toolbar select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
 section h3 {
   margin-bottom: 20px;
   padding-bottom: 10px;
